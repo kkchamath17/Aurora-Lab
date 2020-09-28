@@ -130,18 +130,6 @@ body {
 
 }
 
-#technical-tile:hover, #design-tile:hover, #map-tile:hover {
-  box-shadow: 0 10px 10px 10px #107060;
-  transition: transform 1.1s;
-  width: 101%;
-  height: 254px;
-  margin: 0 auto;
-  }
-
-  #technical-tile:hover, #design-tile:hover, #map-tile:hover {
-  transform: scale(1.1);
-}
-
 #technical-tile {
   background: url('../image/tech.jpg') no-repeat;
   background-position: center;
@@ -252,6 +240,33 @@ h3.menu-item-title {
     height: 160px;
     margin: 7px 0px 0px 0;
   }
+  #tech {
+  width:200px;
+  height: 200px;
+  padding-left: 200px;
+  margin-left: 100px;
+  
+}
+#art {
+  width:200px;
+  height: 200px;
+  padding-left: 200px;
+  margin-left: 160px;
+
+}
+
+#technical-tile:hover, #design-tile:hover, #map-tile:hover {
+  box-shadow: 0 10px 10px 10px #107060;
+  transition: transform 1.1s;
+  width: 101%;
+  height: 254px;
+  margin: 0 auto;
+  }
+
+  #technical-tile:hover, #design-tile:hover, #map-tile:hover {
+  transform: scale(1.1);
+}
+
 }
 
 /********** Medium devices only **********/
@@ -283,6 +298,18 @@ h3.menu-item-title {
     background: url('../image/back.jpg') no-repeat;
     height: 558px;
   }
+
+  #technical-tile:hover, #design-tile:hover, #map-tile:hover {
+  box-shadow: 0 10px 10px 10px #107060;
+  transition: transform 1.1s;
+  width: 101%;
+  height: 254px;
+  margin: 0 auto;
+  }
+
+  #technical-tile:hover, #design-tile:hover, #map-tile:hover {
+  transform: scale(1.1);
+}
   /* End Home Page */
 }
 
@@ -359,7 +386,7 @@ h3.menu-item-title {
   100% {background-color: #DDDDDD; }
 }
 
-/* The element to apply the animation to */
+
 #call-btn > a {
   position: relative;
   animation-name: example;
